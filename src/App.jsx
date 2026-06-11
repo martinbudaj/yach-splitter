@@ -392,7 +392,8 @@ export default function YachtSplitter() {
       </div>
     </div>
   );
-}        setForm(f => ({ ...f, payer: (data.crew || CREW)[0] }));
+}        
+setForm(f => ({ ...f, payer: (data.crew || CREW)[0] }));
       }
       setSyncStatus("ok");
       setLastSync(new Date());
